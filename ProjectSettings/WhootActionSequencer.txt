@@ -1,0 +1,1 @@
+{"TimeStepMode":0,"SnapInterval":0.10000000149011612,"FrameRate":10,"AutoSaveSeconds":5,"SavePath":"Assets/ResRaw/Skill","ScrollWheelZooms":true,"MagnetSnapping":true,"TrackListLeftMargin":256.0}

@@ -18,13 +18,19 @@ namespace NBC.ActionEditorExample
 
         [MenuName("播放音频")] [SelectObjectPath(typeof(AudioClip))]
         public string resPath = "";
-        
+
         private AudioClip _audioClip;
 
-        private AudioClip audioClip
+        public AudioClip audioClip
         {
             get
             {
+                if (string.IsNullOrEmpty(resPath))
+                {
+                    _audioClip = null;
+                    return null;
+                }
+
                 if (_audioClip == null)
                 {
 #if UNITY_EDITOR
@@ -57,7 +63,7 @@ namespace NBC.ActionEditorExample
             get => blendOut;
             set => blendOut = value;
         }
-        
+
 
         float ISubClipContainable.SubClipOffset
         {

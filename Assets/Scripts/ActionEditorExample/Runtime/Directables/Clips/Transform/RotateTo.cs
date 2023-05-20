@@ -13,7 +13,7 @@ namespace NBC.ActionEditorExample
         [SerializeField] [HideInInspector] private float length = 1f;
 
         [MenuName("运动曲线")] public EaseType interpolation = EaseType.QuadInOut;
-        [MenuName("旋转角度")] public Vector2 targetRotation = Vector2.zero;
+        [MenuName("旋转角度")] public Vector3 targetRotation = Vector3.zero;
 
         public override float Length
         {

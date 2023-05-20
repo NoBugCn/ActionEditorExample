@@ -11,11 +11,12 @@ namespace NBC.ActionEditorExample
     public class MoveBy : ActionClip
     {
         [SerializeField] [HideInInspector] private float length = 1;
-        
-        [MenuName("运动曲线")]
-        public AnimationCurve curve;
-        
-        [MenuName("移动量")] public Vector2 move;
+
+        [MenuName("运动曲线")] public AnimationCurve curve;
+
+        [MenuName("运动补间")] public EaseType interpolation = EaseType.QuadInOut;
+
+        [MenuName("移动量")] public Vector3 move;
 
         public override string info => $"位移:\n{move}";
 

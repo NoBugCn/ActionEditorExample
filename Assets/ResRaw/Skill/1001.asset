@@ -44,6 +44,26 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &-8804393959083723277
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24727a20b72b0aa4884c2a267723e5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1831655820799714058}
+  startTime: 1.8000001
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Sound/open_door.wav
+  volume: 1
+  clipOffset: 0
 --- !u!114 &-8645679992482862645
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -59,6 +79,105 @@ MonoBehaviour:
   _parent: {fileID: 5892549751786714322}
   startTime: 3.8000002
   length: 1
+--- !u!114 &-8626493731863738039
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fecc192183f461ca51109a8fd37fe76, type: 3}
+  m_Name: Signal
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: 691346275011581662}
+  - {fileID: -4933341919257686882}
+  - {fileID: -165974923126635361}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-8600485336773091545
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e492df250d44fa823e969d5bb3ba4b, type: 3}
+  m_Name: AudioTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  actionClips:
+  - {fileID: -5946407727547842069}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-8597048729404339008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae04abf770f449088c52fb314b5db844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4812298123405222667}
+  startTime: 1.5212698
+  length: 0.4787302
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  interpolation: 6
+  move: {x: 10, y: 0, z: 0}
+--- !u!114 &-8390943866541051588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -7314928682108644771}
+  startTime: 2.2
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Template/CharacterAnim/Base/dance.anim
+  playbackSpeed: 1
+  clipOffset: 0
 --- !u!114 &-8117177221902313020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -127,6 +246,25 @@ MonoBehaviour:
   startTime: 3
   length: 1.4
   visible: 1
+--- !u!114 &-7682433279878497806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9db414099843999551c8e3036e3029, type: 3}
+  m_Name: AnimationTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6193292197400147721}
+  actionClips:
+  - {fileID: -6455537411246483948}
+  - {fileID: 2182886210890990224}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7528175158999391696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,6 +282,47 @@ MonoBehaviour:
   length: 1.8
   interpolation: 1
   targetScale: {x: 1, y: 1}
+--- !u!114 &-7315531394481334733
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f08842f44d49e3b6dc44579ea53670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 7913785232731150622}
+  <IsActive>k__BackingField: 0
+  <IsLocked>k__BackingField: 0
+  <IsCollapsed>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <BlendIn>k__BackingField: 0
+  <BlendOut>k__BackingField: 0
+  <CanCrossBlend>k__BackingField: 0
+  startTime: 0.4
+--- !u!114 &-7314928682108644771
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9db414099843999551c8e3036e3029, type: 3}
+  m_Name: AnimationTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  actionClips:
+  - {fileID: 3156773225310177605}
+  - {fileID: 4648036757306174649}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7286339939724070028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -185,6 +364,85 @@ MonoBehaviour:
   isCollapsed: 0
   active: 1
   isLocked: 0
+--- !u!114 &-6691130482038473192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bf4d6ab9cd406894fd8930012dadc6, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6512386889693661367}
+  startTime: 0.7
+  length: 1
+  resPath: Assets/ResRaw/Effects/Prefabs/VFX_Fire Magic Array 004.prefab
+  scale: 0
+--- !u!114 &-6518306393348296919
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ca5c0434e14e47835f32b395233b5, type: 3}
+  m_Name: ActionTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6193292197400147721}
+  actionClips:
+  - {fileID: -4667691956033392328}
+  - {fileID: 745060235843165684}
+  - {fileID: -1770002436774180222}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Test1: 0
+  Test2: 0
+  Test3: 
+--- !u!114 &-6512386889693661367
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659090e873e746ca9f1c6cb94357fd58, type: 3}
+  m_Name: EffectTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6193292197400147721}
+  actionClips:
+  - {fileID: -6691130482038473192}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Layer: 0
+--- !u!114 &-6455537411246483948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -7682433279878497806}
+  startTime: 0
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Template/CharacterAnim/Base/dance.anim
+  playbackSpeed: 1
+  clipOffset: 0
 --- !u!114 &-6354873196621727212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -198,10 +456,46 @@ MonoBehaviour:
   m_Name: CameraTrack
   m_EditorClassIdentifier: 
   _parent: {fileID: 2052241807969215243}
+  <IsActive>k__BackingField: 0
+  <IsLocked>k__BackingField: 0
+  <IsCollapsed>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <BlendIn>k__BackingField: 0
+  <BlendOut>k__BackingField: 0
+  <CanCrossBlend>k__BackingField: 0
   actionClips: []
   active: 1
   isLocked: 0
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  m_CacheSorted: 0
+--- !u!114 &-6193292197400147721
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2749d90b133472da797f5201e53720, type: 3}
+  m_Name: "\u52A8\u753B\u7EC4(Clone)"
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 11400000}
+  tracks:
+  - {fileID: -7682433279878497806}
+  - {fileID: -6512386889693661367}
+  - {fileID: 6469096909116453220}
+  - {fileID: 2182615773282067160}
+  - {fileID: -6518306393348296919}
+  - {fileID: -1331958185404811511}
+  isCollapsed: 0
+  active: 1
+  isLocked: 0
 --- !u!114 &-6042391159209805832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -215,12 +509,45 @@ MonoBehaviour:
   m_Name: CameraTrack
   m_EditorClassIdentifier: 
   _parent: {fileID: 2052241807969215243}
+  <IsActive>k__BackingField: 0
+  <IsLocked>k__BackingField: 0
+  <IsCollapsed>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <BlendIn>k__BackingField: 0
+  <BlendOut>k__BackingField: 0
+  <CanCrossBlend>k__BackingField: 0
   actionClips:
   - {fileID: 0}
   - {fileID: 0}
   active: 1
   isLocked: 0
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  m_CacheSorted: 0
+--- !u!114 &-5946407727547842069
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24727a20b72b0aa4884c2a267723e5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -8600485336773091545}
+  startTime: 0.3
+  length: 1.2212698
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Sound/open_door.wav
+  volume: 1
+  clipOffset: 0
 --- !u!114 &-5885777575057623680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -236,6 +563,106 @@ MonoBehaviour:
   _parent: {fileID: 8551054268370409501}
   startTime: 1.8000001
   length: 1
+--- !u!114 &-5820961097189284324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae04abf770f449088c52fb314b5db844, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1331958185404811511}
+  startTime: 1.5212698
+  length: 0.4787302
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  interpolation: 6
+  move: {x: 10, y: 0, z: 0}
+--- !u!114 &-5673040216502684458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4009478594522060777}
+  startTime: 1.6333332
+  length: 2.766667
+  blendIn: 0.13
+  blendOut: 0.36666727
+  resPath: Assets/ResRaw/Model/Skeleton/Ani/Skeleton@Attack.FBX
+  playbackSpeed: 1
+  clipOffset: 0
+--- !u!114 &-5613301667030696789
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ca5c0434e14e47835f32b395233b5, type: 3}
+  m_Name: ShowHide
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: -2099111487404117654}
+  - {fileID: 7747560456927764879}
+  - {fileID: 141675144021148448}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Test1: 0
+  Test2: 0
+  Test3: 
+--- !u!114 &-5481205913408962181
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 7955128618377901320}
+  startTime: 0.8
+  length: 0.50000006
+  visible: 0
 --- !u!114 &-5017006974001734364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,6 +678,24 @@ MonoBehaviour:
   _parent: {fileID: -670139541738208453}
   startTime: 1.8000001
   length: 1
+--- !u!114 &-4933341919257686882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154d3633e4d442e59b4cc7751d8f6c64, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -8626493731863738039}
+  startTime: 0.90000004
+  eventName: 2
+  calculateType: 0
+  calculateArgs: 0
+  kill: 0
 --- !u!114 &-4930874504061868873
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,6 +733,123 @@ MonoBehaviour:
   resPath: 
   volume: 1
   clipOffset: 0
+--- !u!114 &-4839861237903919727
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4009478594522060777}
+  startTime: 4.966667
+  length: 5.666667
+  blendIn: 0.36666727
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Skeleton/Ani/Skeleton@Idle.FBX
+  playbackSpeed: 1
+  clipOffset: 0
+--- !u!114 &-4667691956033392328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6518306393348296919}
+  startTime: 0
+  length: 0.8
+  visible: 1
+--- !u!114 &-4263558228211353097
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fecc192183f461ca51109a8fd37fe76, type: 3}
+  m_Name: SignalTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  actionClips:
+  - {fileID: 7750291954973258129}
+  - {fileID: 8997371092375738573}
+  - {fileID: 9007089488660387159}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-4259307357628519635
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae04abf770f449088c52fb314b5db844, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 4.4
+  length: 1.2999997
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  interpolation: 6
+  move: {x: 10, y: 0, z: 0}
+--- !u!114 &-4009478594522060777
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9db414099843999551c8e3036e3029, type: 3}
+  m_Name: "\u52A8\u753B"
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: 7420767043788259824}
+  - {fileID: -5673040216502684458}
+  - {fileID: -4839861237903919727}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-3994547458268298840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -321,6 +883,23 @@ MonoBehaviour:
   startTime: 4.2000003
   length: 3.9
   visible: 1
+--- !u!114 &-3092156572556315078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8302a8becde649e7889e8070e220abf0, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1331958185404811511}
+  startTime: 2.1
+  length: 0.4000001
+  interpolation: 6
+  moveType: 2
 --- !u!114 &-2952980916753599625
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -352,6 +931,23 @@ MonoBehaviour:
   _parent: {fileID: 5892549751786714322}
   startTime: 6.5
   length: 1
+--- !u!114 &-2554256390520387415
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e35962605be4f3c933533900bba5cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4812298123405222667}
+  startTime: 0
+  length: 0.5
+  interpolation: 6
+  targetScale: {x: 0.5, y: 0.5}
 --- !u!114 &-2514134744591031628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -365,7 +961,116 @@ MonoBehaviour:
   m_Name: ActionTrack
   m_EditorClassIdentifier: 
   _parent: {fileID: 2052241807969215243}
-  actionClips: []
+  actionClips:
+  - {fileID: 4878250233350209027}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Test1: 0
+  Test2: 0
+  Test3: 
+--- !u!114 &-2307355441778959011
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bf4d6ab9cd406894fd8930012dadc6, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -439315439554179066}
+  startTime: 0
+  length: 1
+  resPath: Assets/ResRaw/Effects/Prefabs/VFX_Fire Magic Array 004.prefab
+  scale: 0
+--- !u!114 &-2099111487404117654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -5613301667030696789}
+  startTime: 0
+  length: 1.5212698
+  visible: 1
+--- !u!114 &-1831655820799714058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e492df250d44fa823e969d5bb3ba4b, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: -440041318538188452}
+  - {fileID: -8804393959083723277}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-1770002436774180222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6518306393348296919}
+  startTime: 1.3000001
+  length: 1.6
+  visible: 1
+--- !u!114 &-1545421638666265824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64349cad6264d0b9c283e9780792fb3, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2182615773282067160}
+  startTime: 0.3
+  log: log
+--- !u!114 &-1331958185404811511
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ca5c0434e14e47835f32b395233b5, type: 3}
+  m_Name: ActionTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6193292197400147721}
+  actionClips:
+  - {fileID: 6874698949972719715}
+  - {fileID: -307318114516498116}
+  - {fileID: 5503062613505125661}
+  - {fileID: -5820961097189284324}
+  - {fileID: -3092156572556315078}
   active: 1
   isLocked: 0
   color: {r: 1, g: 1, b: 1, a: 1}
@@ -469,6 +1174,81 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &-440041318538188452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24727a20b72b0aa4884c2a267723e5df, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1831655820799714058}
+  startTime: 0.3
+  length: 1.2212698
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Sound/open_door.wav
+  volume: 1
+  clipOffset: 0
+--- !u!114 &-439315439554179066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659090e873e746ca9f1c6cb94357fd58, type: 3}
+  m_Name: EffectTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: -2307355441778959011}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Layer: 0
+--- !u!114 &-307318114516498116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d021182972d24cb5a79025998b329ab4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1331958185404811511}
+  startTime: 0.6
+  length: 0.3
+  interpolation: 6
+  targetRotation: {x: 30, y: 0, z: 0}
+--- !u!114 &-165974923126635361
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2c28d156e9454aa0b523e22e03263c, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -8626493731863738039}
+  startTime: 1.4
+  shakeType: 3
+  duration: 0.5
+  range: 5
+  vibrationDuration: 0.5
+  vibrationForce: 1
 --- !u!114 &-16574751148887914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -498,15 +1278,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _parent: {fileID: 0}
   groups:
-  - {fileID: 2052241807969215243}
-  - {fileID: -6971113706048364557}
-  - {fileID: -3994547458268298840}
-  - {fileID: 4116290474885548137}
-  - {fileID: 4311394198601664881}
-  - {fileID: 2344107114272332111}
-  length: 15.900001
-  viewTimeMin: -1.6990068
-  viewTimeMax: 13.850448
+  - {fileID: 5038322415523911601}
+  length: 10.633334
+  viewTimeMin: -0.44969732
+  viewTimeMax: 5.18272
+--- !u!114 &8519243884379441
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 7955128618377901320}
+  startTime: 0
+  length: 0.8
+  visible: 1
 --- !u!114 &41376585957232240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -540,6 +1331,22 @@ MonoBehaviour:
   length: 1
   interpolation: 6
   targetScale: {x: 1, y: 1}
+--- !u!114 &141675144021148448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -5613301667030696789}
+  startTime: 4.3
+  length: 0.32127
+  visible: 1
 --- !u!114 &410702458739494225
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -572,6 +1379,72 @@ MonoBehaviour:
   _parent: {fileID: 5892549751786714322}
   startTime: 2
   length: 1
+--- !u!114 &516738130805801389
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154d3633e4d442e59b4cc7751d8f6c64, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2182615773282067160}
+  startTime: 0.90000004
+  eventName: 2
+  calculateType: 0
+  calculateArgs: 0
+  kill: 0
+--- !u!114 &666010320438352319
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d021182972d24cb5a79025998b329ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4812298123405222667}
+  startTime: 1
+  length: 0.30000007
+  interpolation: 6
+  targetRotation: {x: -30, y: 0, z: 0}
+--- !u!114 &691346275011581662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64349cad6264d0b9c283e9780792fb3, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -8626493731863738039}
+  startTime: 0.3
+  log: log
+--- !u!114 &745060235843165684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6518306393348296919}
+  startTime: 0.8
+  length: 0.50000006
+  visible: 0
 --- !u!114 &820056601660348500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -609,6 +1482,25 @@ MonoBehaviour:
   startTime: 1.6000001
   length: 1
   visible: 1
+--- !u!114 &964225245542961433
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659090e873e746ca9f1c6cb94357fd58, type: 3}
+  m_Name: EffectTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: 4576336680581061313}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Layer: 0
 --- !u!114 &1210502192756726403
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -640,6 +1532,23 @@ MonoBehaviour:
   _parent: {fileID: 3421493369709318135}
   startTime: 4.1000004
   length: 1
+--- !u!114 &1646891397529905288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8302a8becde649e7889e8070e220abf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 1
+  length: 1
+  interpolation: 6
+  moveType: 1
 --- !u!114 &2052241807969215243
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -684,6 +1593,46 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &2182615773282067160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fecc192183f461ca51109a8fd37fe76, type: 3}
+  m_Name: SignalTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6193292197400147721}
+  actionClips:
+  - {fileID: -1545421638666265824}
+  - {fileID: 516738130805801389}
+  - {fileID: 8019896226774373590}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2182886210890990224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -7682433279878497806}
+  startTime: 1.1
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Template/CharacterAnim/Base/idleCity.anim
+  playbackSpeed: 1
+  clipOffset: 0
 --- !u!114 &2344107114272332111
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -703,6 +1652,50 @@ MonoBehaviour:
   isCollapsed: 0
   active: 1
   isLocked: 0
+--- !u!114 &2421673294473460835
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2749d90b133472da797f5201e53720, type: 3}
+  m_Name: "\u52A8\u753B\u7EC4"
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 11400000}
+  tracks:
+  - {fileID: -7314928682108644771}
+  - {fileID: 8737440696085545649}
+  - {fileID: -8600485336773091545}
+  - {fileID: -4263558228211353097}
+  - {fileID: 7955128618377901320}
+  - {fileID: 4812298123405222667}
+  - {fileID: 0}
+  isCollapsed: 0
+  active: 1
+  isLocked: 0
+--- !u!114 &2446110951282644556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24727a20b72b0aa4884c2a267723e5df, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 6469096909116453220}
+  startTime: 0.3
+  length: 1.2212698
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Sound/open_door.wav
+  volume: 1
+  clipOffset: 0
 --- !u!114 &2485304364595665120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -738,6 +1731,26 @@ MonoBehaviour:
   length: 2.4999995
   interpolation: 6
   targetScale: {x: 1, y: 1}
+--- !u!114 &3156773225310177605
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -7314928682108644771}
+  startTime: 0
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Template/CharacterAnim/Base/dance.anim
+  playbackSpeed: 1
+  clipOffset: 0
 --- !u!114 &3179401009051361898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -826,6 +1839,40 @@ MonoBehaviour:
   isCollapsed: 0
   active: 1
   isLocked: 0
+--- !u!114 &3617165009364908303
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d021182972d24cb5a79025998b329ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4812298123405222667}
+  startTime: 0.6
+  length: 0.3
+  interpolation: 6
+  targetRotation: {x: 30, y: 0, z: 0}
+--- !u!114 &3776585961013193168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d021182972d24cb5a79025998b329ab4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 3.4
+  length: 0.30000007
+  interpolation: 6
+  targetRotation: {x: -30, y: 0, z: 0}
 --- !u!114 &3976755152251531894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -863,6 +1910,23 @@ MonoBehaviour:
   _parent: {fileID: 5892549751786714322}
   startTime: 1.4
   length: 1
+--- !u!114 &4084138537962991726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8302a8becde649e7889e8070e220abf0, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 2.1
+  length: 0.4000001
+  interpolation: 6
+  moveType: 2
 --- !u!114 &4116290474885548137
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -880,6 +1944,32 @@ MonoBehaviour:
   isCollapsed: 0
   active: 1
   isLocked: 0
+--- !u!114 &4289642957241329705
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ca5c0434e14e47835f32b395233b5, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 5038322415523911601}
+  actionClips:
+  - {fileID: 6285688232300075761}
+  - {fileID: 1646891397529905288}
+  - {fileID: 4084138537962991726}
+  - {fileID: 4797742853300204615}
+  - {fileID: 3776585961013193168}
+  - {fileID: -4259307357628519635}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Test1: 0
+  Test2: 0
+  Test3: 
 --- !u!114 &4311394198601664881
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -897,6 +1987,40 @@ MonoBehaviour:
   isCollapsed: 0
   active: 1
   isLocked: 0
+--- !u!114 &4340323592678432238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bf4d6ab9cd406894fd8930012dadc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 8737440696085545649}
+  startTime: 0.7
+  length: 1
+  resPath: Assets/ResRaw/Effects/Prefabs/VFX_Fire Magic Array 004.prefab
+  scale: 0
+--- !u!114 &4576336680581061313
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bf4d6ab9cd406894fd8930012dadc6, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 964225245542961433}
+  startTime: 0.7
+  length: 1
+  resPath: Assets/ResRaw/Effects/Prefabs/VFX_Fire Magic Array 004.prefab
+  scale: 0
 --- !u!114 &4634394931498922154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -912,6 +2036,85 @@ MonoBehaviour:
   _parent: {fileID: -6042391159209805832}
   startTime: 1.5
   length: 3
+--- !u!114 &4648036757306174649
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -7314928682108644771}
+  startTime: 1.1
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Template/CharacterAnim/Base/idleCity.anim
+  playbackSpeed: 1
+  clipOffset: 0
+--- !u!114 &4797742853300204615
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d021182972d24cb5a79025998b329ab4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 2.8000002
+  length: 0.3
+  interpolation: 6
+  targetRotation: {x: 30, y: 0, z: 0}
+--- !u!114 &4812298123405222667
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ca5c0434e14e47835f32b395233b5, type: 3}
+  m_Name: ActionTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  actionClips:
+  - {fileID: -2554256390520387415}
+  - {fileID: 3617165009364908303}
+  - {fileID: 666010320438352319}
+  - {fileID: -8597048729404339008}
+  - {fileID: 8931782264156719768}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Test1: 0
+  Test2: 0
+  Test3: 
+--- !u!114 &4878250233350209027
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8302a8becde649e7889e8070e220abf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -2514134744591031628}
+  startTime: 1.3000001
+  length: 2.6
+  interpolation: 6
+  moveType: 0
 --- !u!114 &4892501012965222902
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -961,6 +2164,29 @@ MonoBehaviour:
   startTime: 4.7000003
   length: 1
   visible: 1
+--- !u!114 &5038322415523911601
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2749d90b133472da797f5201e53720, type: 3}
+  m_Name: TestGroup
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 11400000}
+  tracks:
+  - {fileID: -4009478594522060777}
+  - {fileID: -439315439554179066}
+  - {fileID: -1831655820799714058}
+  - {fileID: -8626493731863738039}
+  - {fileID: -5613301667030696789}
+  - {fileID: 4289642957241329705}
+  isCollapsed: 0
+  active: 1
+  isLocked: 0
 --- !u!114 &5280428071344960147
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -995,6 +2221,23 @@ MonoBehaviour:
   length: 2.4999995
   interpolation: 6
   targetScale: {x: 1, y: 2}
+--- !u!114 &5503062613505125661
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d021182972d24cb5a79025998b329ab4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1331958185404811511}
+  startTime: 1
+  length: 0.30000007
+  interpolation: 6
+  targetRotation: {x: -30, y: 0, z: 0}
 --- !u!114 &5786995774997253408
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1010,6 +2253,22 @@ MonoBehaviour:
   _parent: {fileID: 5892549751786714322}
   startTime: 3.3999994
   length: 4
+--- !u!114 &5827988832112589056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 7955128618377901320}
+  startTime: 1.3000001
+  length: 1.6
+  visible: 1
 --- !u!114 &5892549751786714322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1023,12 +2282,25 @@ MonoBehaviour:
   m_Name: CameraTrack
   m_EditorClassIdentifier: 
   _parent: {fileID: 8514301096953067756}
+  <IsActive>k__BackingField: 0
+  <IsLocked>k__BackingField: 0
+  <IsCollapsed>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <BlendIn>k__BackingField: 0
+  <BlendOut>k__BackingField: 0
+  <CanCrossBlend>k__BackingField: 0
   actionClips:
   - {fileID: 0}
   - {fileID: 0}
   active: 1
   isLocked: 0
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  m_CacheSorted: 0
 --- !u!114 &5912907226447523685
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1128,6 +2400,23 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &6285688232300075761
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e35962605be4f3c933533900bba5cde, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 0
+  length: 0.5
+  interpolation: 6
+  targetScale: {x: 0.5, y: 0.5}
 --- !u!114 &6459907756039482668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1150,6 +2439,24 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &6469096909116453220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e492df250d44fa823e969d5bb3ba4b, type: 3}
+  m_Name: AudioTrack(Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -6193292197400147721}
+  actionClips:
+  - {fileID: 2446110951282644556}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6661665818747083413
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1171,6 +2478,63 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &6874698949972719715
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e35962605be4f3c933533900bba5cde, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -1331958185404811511}
+  startTime: 0
+  length: 0.5
+  interpolation: 6
+  targetScale: {x: 0.5, y: 0.5}
+--- !u!114 &7420767043788259824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4009478594522060777}
+  startTime: 0
+  length: 1.1666667
+  blendIn: 0.36
+  blendOut: 0.12
+  resPath: Assets/ResRaw/Model/Skeleton/Ani/Skeleton@Skill.FBX
+  playbackSpeed: 1
+  clipOffset: 0
+--- !u!114 &7563216751774694679
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -7314928682108644771}
+  startTime: 1.4
+  length: 0.033333335
+  blendIn: 0
+  blendOut: 0.033333335
+  resPath: Packages/com.unity.timeline/Editor/StyleSheets/res/HumanoidDefault.anim
+  playbackSpeed: 1
+  clipOffset: 0
 --- !u!114 &7653458036167790442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1192,7 +2556,39 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  move: {x: 0, y: 0}
+  interpolation: 6
+  move: {x: 0, y: 0, z: 0}
+--- !u!114 &7747560456927764879
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -5613301667030696789}
+  startTime: 3.7000003
+  length: 0.50000006
+  visible: 0
+--- !u!114 &7750291954973258129
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64349cad6264d0b9c283e9780792fb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4263558228211353097}
+  startTime: 0.3
+  log: log
 --- !u!114 &7831658134066874047
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1241,6 +2637,79 @@ MonoBehaviour:
   isCollapsed: 0
   active: 1
   isLocked: 0
+--- !u!114 &7913785232731150622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfe1bdf5d0d4819889941986d4d6439, type: 3}
+  m_Name: CameraTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  <IsActive>k__BackingField: 0
+  <IsLocked>k__BackingField: 0
+  <IsCollapsed>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <BlendIn>k__BackingField: 0
+  <BlendOut>k__BackingField: 0
+  <CanCrossBlend>k__BackingField: 0
+  actionClips:
+  - {fileID: 0}
+  active: 1
+  isLocked: 0
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  m_CacheSorted: 0
+--- !u!114 &7955128618377901320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ca5c0434e14e47835f32b395233b5, type: 3}
+  m_Name: ActionTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  actionClips:
+  - {fileID: 8519243884379441}
+  - {fileID: -5481205913408962181}
+  - {fileID: 5827988832112589056}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Test1: 0
+  Test2: 0
+  Test3: 
+--- !u!114 &8019896226774373590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2c28d156e9454aa0b523e22e03263c, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2182615773282067160}
+  startTime: 1.4
+  shakeType: 3
+  duration: 0.5
+  range: 5
+  vibrationDuration: 0.5
+  vibrationForce: 1
 --- !u!114 &8076607740818201779
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1309,7 +2778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _parent: {fileID: 11400000}
   tracks:
-  - {fileID: 5892549751786714322}
+  - {fileID: 0}
   - {fileID: 3421493369709318135}
   - {fileID: 6108825730301239516}
   - {fileID: 2485304364595665120}
@@ -1373,6 +2842,25 @@ MonoBehaviour:
   startTime: 4.2000003
   length: 1
   visible: 1
+--- !u!114 &8737440696085545649
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659090e873e746ca9f1c6cb94357fd58, type: 3}
+  m_Name: EffectTrack
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 2421673294473460835}
+  actionClips:
+  - {fileID: 4340323592678432238}
+  active: 1
+  isLocked: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  Layer: 0
 --- !u!114 &8812590112170838411
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1427,3 +2915,57 @@ MonoBehaviour:
   resPath: Assets/ResRaw/Sound/open_door.wav
   volume: 0.813
   clipOffset: 0
+--- !u!114 &8931782264156719768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8302a8becde649e7889e8070e220abf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4812298123405222667}
+  startTime: 2.1
+  length: 0.4000001
+  interpolation: 6
+  moveType: 2
+--- !u!114 &8997371092375738573
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154d3633e4d442e59b4cc7751d8f6c64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4263558228211353097}
+  startTime: 0.90000004
+  eventName: 2
+  calculateType: 0
+  calculateArgs: 0
+  kill: 0
+--- !u!114 &9007089488660387159
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2c28d156e9454aa0b523e22e03263c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4263558228211353097}
+  startTime: 1.4
+  shakeType: 3
+  duration: 0.5
+  range: 5
+  vibrationDuration: 0.5
+  vibrationForce: 1

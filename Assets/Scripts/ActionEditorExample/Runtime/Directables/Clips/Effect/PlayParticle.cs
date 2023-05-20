@@ -4,7 +4,7 @@ using UnityEditor;
 #endif
 using UnityEngine;
 
-namespace NBC.ActionEditorExample.Clips.Effect
+namespace NBC.ActionEditorExample
 {
     [Name("普通粒子片段")]
     [Description("播放一个粒子特效")]

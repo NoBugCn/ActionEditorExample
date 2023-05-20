@@ -747,7 +747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _parent: {fileID: -4009478594522060777}
   startTime: 4.966667
-  length: 5.666667
+  length: 0.73333263
   blendIn: 0.36666727
   blendOut: 0.25
   resPath: Assets/ResRaw/Model/Skeleton/Ani/Skeleton@Idle.FBX
@@ -846,7 +846,7 @@ MonoBehaviour:
   actionClips:
   - {fileID: 7420767043788259824}
   - {fileID: -5673040216502684458}
-  - {fileID: -4839861237903919727}
+  - {fileID: -2362645001394207494}
   active: 1
   isLocked: 0
   color: {r: 1, g: 1, b: 1, a: 1}
@@ -969,6 +969,26 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &-2362645001394207494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f287254a274055ab76bb9e49c2930d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: -4009478594522060777}
+  startTime: 4.6
+  length: 1
+  blendIn: 0.25
+  blendOut: 0.25
+  resPath: Assets/ResRaw/Model/Skeleton/Ani/Skeleton@Idle.FBX
+  playbackSpeed: 1
+  clipOffset: 0
 --- !u!114 &-2307355441778959011
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1279,9 +1299,9 @@ MonoBehaviour:
   _parent: {fileID: 0}
   groups:
   - {fileID: 5038322415523911601}
-  length: 10.633334
-  viewTimeMin: -0.44969732
-  viewTimeMax: 5.18272
+  length: 5.7
+  viewTimeMin: -1.9946581
+  viewTimeMax: 7.942865
 --- !u!114 &8519243884379441
 MonoBehaviour:
   m_ObjectHideFlags: 1

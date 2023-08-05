@@ -32,9 +32,9 @@ namespace NBC
             }
         }
 
-        public List<K> Keys => new(kv.Keys);
+        public List<K> Keys => new List<K>(kv.Keys);
 
-        public List<V> Values => new(vk.Keys);
+        public List<V> Values => new List<V>(vk.Keys);
 
         public void Add(K key, V value)
         {

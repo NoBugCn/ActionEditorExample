@@ -9,6 +9,13 @@
 
 https://www.bilibili.com/video/BV1tM4y1q7xg/
 
+# Runtime演示说明
+
+runtime下示例为用法演示，使用的是异步队列，大家可以参考然后根据自己喜好编写对应逻辑。
+
+有疑惑查看Runtime演示目录下的README.md文件。
+
+
 # 交流Q群
 
 567604178

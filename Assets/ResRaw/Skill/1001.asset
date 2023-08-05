@@ -44,6 +44,22 @@ MonoBehaviour:
   Test1: 0
   Test2: 0
   Test3: 
+--- !u!114 &-8877269019726919307
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20df64a2d8844fd18c018690de9a9ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 4289642957241329705}
+  startTime: 5.9
+  length: 1
+  visible: 1
 --- !u!114 &-8804393959083723277
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57,13 +73,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parent: {fileID: -1831655820799714058}
-  startTime: 1.8000001
+  startTime: 1.8000004
   length: 1
   blendIn: 0.25
   blendOut: 0.25
   resPath: Assets/ResRaw/Sound/open_door.wav
   volume: 1
   clipOffset: 0
+--- !u!114 &-8785073078329482091
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2749d90b133472da797f5201e53720, type: 3}
+  m_Name: New Group
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 11400000}
+  tracks: []
+  isCollapsed: 0
+  active: 1
+  isLocked: 0
 --- !u!114 &-8645679992482862645
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -691,7 +724,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   _parent: {fileID: -8626493731863738039}
-  startTime: 0.90000004
+  startTime: 0.89999986
   eventName: 2
   calculateType: 0
   calculateArgs: 0
@@ -1263,7 +1296,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   _parent: {fileID: -8626493731863738039}
-  startTime: 1.4
+  startTime: 1.3999999
   shakeType: 3
   duration: 0.5
   range: 5
@@ -1299,9 +1332,9 @@ MonoBehaviour:
   _parent: {fileID: 0}
   groups:
   - {fileID: 5038322415523911601}
-  length: 5.7
-  viewTimeMin: -1.9946581
-  viewTimeMax: 7.942865
+  length: 7.1
+  viewTimeMin: -1.2642207
+  viewTimeMax: 7.516051
 --- !u!114 &8519243884379441
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1364,7 +1397,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   _parent: {fileID: -5613301667030696789}
-  startTime: 4.3
+  startTime: 4.2999997
   length: 0.32127
   visible: 1
 --- !u!114 &410702458739494225
@@ -1565,7 +1598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parent: {fileID: 4289642957241329705}
-  startTime: 1
+  startTime: 0.99999976
   length: 1
   interpolation: 6
   moveType: 1
@@ -1943,7 +1976,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   _parent: {fileID: 4289642957241329705}
-  startTime: 2.1
+  startTime: 2.1000004
   length: 0.4000001
   interpolation: 6
   moveType: 2
@@ -2089,7 +2122,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   _parent: {fileID: 4289642957241329705}
-  startTime: 2.8000002
+  startTime: 2.8000007
   length: 0.3
   interpolation: 6
   targetRotation: {x: 30, y: 0, z: 0}

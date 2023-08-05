@@ -17,6 +17,8 @@ namespace ActionEditorExample
             var target = originalPos + clip.move;
             ModelSampler.EditModel.transform.position =
                 Easing.Ease(clip.interpolation, originalPos, target, time / clip.Length);
+            
+            
         }
 
         public override void Enter()

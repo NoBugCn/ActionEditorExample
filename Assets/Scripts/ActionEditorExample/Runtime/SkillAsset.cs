@@ -7,6 +7,5 @@ namespace NBC.ActionEditorExample
     [Serializable]
     public class SkillAsset : Asset
     {
-
     }
 }

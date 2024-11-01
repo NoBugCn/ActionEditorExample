@@ -8,9 +8,8 @@ namespace NBC.ActionEditorExample
     [Description("缩放剪辑的行为")]
     [Color(70f / 255f, 1, 140f / 255f)]
     [Attachable(typeof(ActionTrack))]
-    public class ScaleTo: ActionClip
+    public class ScaleTo: Clip
     {
-        [SerializeField] [HideInInspector] private float length = 1f;
 
         [MenuName("缩放曲线")] public EaseType interpolation = EaseType.QuadInOut;
         [MenuName("缩放目标")] public Vector2 targetScale = Vector2.one;
@@ -21,9 +20,9 @@ namespace NBC.ActionEditorExample
             set => length = value;
         }
 
-        public override string info => $"缩放:\n{targetScale}";
+        public override string Info => $"缩放:\n{targetScale}";
 
-        public override bool isValid => true;
+        public override bool IsValid => true;
 
         private ActionTrack Track => (ActionTrack)Parent;
     }

@@ -6,7 +6,7 @@ namespace NBC.ActionEditorExample
     [Description("触发一个震动")]
     [Color(1, 0, 0)]
     [Attachable(typeof(SignalTrack))]
-    public class TriggerShake : ActionClip
+    public class TriggerShake : ClipSignal
     {
         [MenuName("类型")] [OptionParam(typeof(EventShakeType))]
         public int shakeType;
@@ -25,7 +25,7 @@ namespace NBC.ActionEditorExample
         [OptionRelateParam("shakeType", EventShakeType.Phone, EventShakeType.ScreenAndPhone)]
         public int vibrationForce = EventShakeForceType.Default;
 
-        public override string info
+        public override string Info
         {
             get
             {
@@ -39,6 +39,6 @@ namespace NBC.ActionEditorExample
             }
         }
 
-        public override bool isValid => shakeType > 0;
+        public override bool IsValid => shakeType > 0;
     }
 }

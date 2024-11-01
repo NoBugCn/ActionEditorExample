@@ -4,7 +4,7 @@ namespace NBC.ActionEditorExample
 {
     public static class SkillDirector
     {
-        public static SkillClipBase GetClip(ActionClip clip)
+        public static SkillClipBase GetClip(Clip clip)
         {
             SkillClipBase classInst = null;
             //这里用穷举方式来做。当然大家如果不用脚本剔除，也可以用反射来做

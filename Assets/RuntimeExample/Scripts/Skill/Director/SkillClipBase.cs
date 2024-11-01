@@ -46,9 +46,9 @@ namespace NBC.ActionEditorExample
         protected RoleBase Player;
 
 
-        protected ActionClip ActionClip;
+        protected Clip ActionClip;
 
-        public void SetActionClip(ActionClip actionClip)
+        public void SetActionClip(Clip actionClip)
         {
             ActionClip = actionClip;
         }

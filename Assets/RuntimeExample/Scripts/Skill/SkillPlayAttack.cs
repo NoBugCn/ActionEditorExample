@@ -32,7 +32,7 @@ namespace NBC.ActionEditorExample
             var events = new TimelineTaskCollection();
             if (skillAsset != null)
             {
-                List<ActionClip> list = new List<ActionClip>();
+                List<Clip> list = new List<Clip>();
                 foreach (var group in skillAsset.groups)
                 {
                     foreach (var track in group.Tracks)

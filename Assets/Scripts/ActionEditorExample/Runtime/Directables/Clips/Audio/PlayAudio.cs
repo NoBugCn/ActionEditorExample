@@ -10,9 +10,8 @@ namespace NBC.ActionEditorExample
     [Description("播放音频的一个行为")]
     [Color(1f, 0.63f, 0f)]
     [Attachable(typeof(AudioTrack))]
-    public class PlayAudio : ActionClip, ISubClipContainable
+    public class PlayAudio : Clip, ISubClipContainable
     {
-        [SerializeField] [HideInInspector] private float length = 1f;
         [SerializeField] [HideInInspector] private float blendIn = 0.25f;
         [SerializeField] [HideInInspector] private float blendOut = 0.25f;
 
@@ -75,17 +74,19 @@ namespace NBC.ActionEditorExample
 
         float ISubClipContainable.SubClipSpeed => 1;
 
-        public override bool isValid => audioClip != null;
+        public override bool IsValid => audioClip != null;
 
-        public override string info => isValid ? audioClip.name : base.info;
+        public override string Info => IsValid ? audioClip.name : base.Info;
 
-        public AudioTrack Track => (AudioTrack)parent;
+        public AudioTrack Track => (AudioTrack)Parent;
 
-#if UNITY_EDITOR
-        protected override void OnClipGUI(Rect rect)
-        {
-            DrawTools.DrawLoopedAudioTexture(rect, audioClip, Length, clipOffset);
-        }
-#endif
+        public override bool CanCrossBlend => true;
+
+        // #if UNITY_EDITOR
+//         protected override void OnClipGUI(Rect rect)
+//         {
+//             DrawTools.DrawLoopedAudioTexture(rect, audioClip, Length, clipOffset);
+//         }
+// #endif
     }
 }

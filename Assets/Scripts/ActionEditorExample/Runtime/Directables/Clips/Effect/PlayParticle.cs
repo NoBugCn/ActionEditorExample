@@ -10,10 +10,8 @@ namespace NBC.ActionEditorExample
     [Description("播放一个粒子特效")]
     [Color(0.0f, 1f, 1f)]
     [Attachable(typeof(EffectTrack))]
-    public class PlayParticle : ActionClip
+    public class PlayParticle : Clip
     {
-        [SerializeField] [HideInInspector] private float length = 1f;
-
         [MenuName("特效对象")] [SelectObjectPath(typeof(GameObject))]
         public string resPath = "";
 
@@ -43,10 +41,10 @@ namespace NBC.ActionEditorExample
             set => length = value;
         }
 
-        public override bool isValid => audioClip != null;
+        public override bool IsValid => audioClip != null;
 
-        public override string info => isValid ? audioClip.name : base.info;
+        public override string Info => IsValid ? audioClip.name : base.Info;
 
-        public AudioTrack Track => (AudioTrack)parent;
+        public AudioTrack Track => (AudioTrack)Parent;
     }
 }

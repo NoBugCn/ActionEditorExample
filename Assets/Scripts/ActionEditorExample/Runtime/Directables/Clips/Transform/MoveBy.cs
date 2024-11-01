@@ -8,9 +8,8 @@ namespace NBC.ActionEditorExample
     [Description("将对象移动一定距离")]
     [Color(70f / 255f, 1, 140f / 255f)]
     [Attachable(typeof(ActionTrack))]
-    public class MoveBy : ActionClip
+    public class MoveBy : Clip
     {
-        [SerializeField] [HideInInspector] private float length = 1;
 
         [MenuName("运动曲线")] public AnimationCurve curve;
 
@@ -18,7 +17,7 @@ namespace NBC.ActionEditorExample
 
         [MenuName("移动量")] public Vector3 move;
 
-        public override string info => $"位移:\n{move}";
+        public override string Info => $"位移:\n{move}";
 
         public override float Length
         {
@@ -27,7 +26,7 @@ namespace NBC.ActionEditorExample
         }
 
 
-        public override bool isValid => true;
+        public override bool IsValid => true;
 
         private ActionTrack Track => (ActionTrack)Parent;
     }

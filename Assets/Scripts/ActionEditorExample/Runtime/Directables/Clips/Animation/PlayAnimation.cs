@@ -8,9 +8,8 @@ namespace NBC.ActionEditorExample
     [Description("播放一个动画剪辑的行为")]
     [Color(0.48f, 0.71f, 0.84f)]
     [Attachable(typeof(AnimationTrack))]
-    public class PlayAnimation : ActionClip, ISubClipContainable
+    public class PlayAnimation : Clip, ISubClipContainable
     {
-        [SerializeField] [HideInInspector] private float length = 1f;
         [SerializeField] [HideInInspector] private float blendIn = 0.25f;
         [SerializeField] [HideInInspector] private float blendOut = 0.25f;
 
@@ -73,10 +72,10 @@ namespace NBC.ActionEditorExample
 
         float ISubClipContainable.SubClipSpeed => 1;
 
-        public override bool isValid => animationClip != null;
+        public override bool IsValid => animationClip != null;
 
-        public override string info => isValid ? animationClip.name : base.info;
+        public override string Info => IsValid ? animationClip.name : base.Info;
 
-        public AudioTrack Track => (AudioTrack)parent;
+        public AudioTrack Track => (AudioTrack)Parent;
     }
 }

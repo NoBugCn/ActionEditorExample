@@ -6,7 +6,7 @@ namespace NBC.ActionEditorExample
     [Description("触发一个事件")]
     [Color(1, 0, 0)]
     [Attachable(typeof(SignalTrack))]
-    public class TriggerEvent : ActionClip
+    public class TriggerEvent : ClipSignal
     {
         [MenuName("事件名称")] [OptionParam(typeof(EventNames))]
         public int eventName;
@@ -20,7 +20,7 @@ namespace NBC.ActionEditorExample
         [MenuName("必杀概率")] [OptionRelateParam("eventName", EventNames.Kill)]
         public int kill;
 
-        public override string info => "事件\n" + AttributesUtility.GetMenuName(eventName, typeof(EventNames));
-        public override bool isValid => eventName > 0;
+        public override string Info => "事件\n" + AttributesUtility.GetMenuName(eventName, typeof(EventNames));
+        public override bool IsValid => eventName > 0;
     }
 }
